@@ -6,3 +6,4 @@ choco install 7zip
 choco install die
 choco install teraterm
 choco install winmerge-jp
+choco install ghidra
