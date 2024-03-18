@@ -12,6 +12,11 @@
             <SandboxFolder>C:\mount_rw</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\mount_cache</HostFolder>
+            <SandboxFolder>C:\ProgramData\ChocolateyHttpCache</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
     </MappedFolders>
     <LogonCommand>
         <Command>powershell.exe -ExecutionPolicy RemoteSigned C:\mount_ro\init.ps1</Command>
