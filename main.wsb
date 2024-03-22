@@ -14,7 +14,7 @@
         </MappedFolder>
         <MappedFolder>
             <HostFolder>.\mount_cache</HostFolder>
-            <SandboxFolder>C:\ProgramData\ChocolateyHttpCache</SandboxFolder>
+            <SandboxFolder>C:\mount_cache</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
     </MappedFolders>
